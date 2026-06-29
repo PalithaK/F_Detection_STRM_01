@@ -1,0 +1,26 @@
+{
+  "threshold": 0.5,
+  "xgb_weight": 0.6,
+  "nn_weight": 0.4,
+  "feature_names": [
+    "amount",
+    "distance_from_home",
+    "prev_tx_count",
+    "prev_tx_avg_amount",
+    "tx_velocity_1h",
+    "hour_of_day",
+    "is_night",
+    "is_foreign",
+    "is_high_amount",
+    "is_high_velocity",
+    "segment_premium",
+    "segment_standard",
+    "tx_type_mobile",
+    "tx_type_online",
+    "tx_type_pos",
+    "device_ios",
+    "device_unknown",
+    "device_windows"
+  ],
+  "n_features": 18
+}
